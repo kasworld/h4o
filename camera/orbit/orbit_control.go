@@ -7,12 +7,12 @@ package orbit
 import (
 	"math"
 
+	"github.com/kasworld/h4o/appbase/appwindow"
 	"github.com/kasworld/h4o/camera"
 	"github.com/kasworld/h4o/dispatcher"
 	"github.com/kasworld/h4o/eventtype"
 	"github.com/kasworld/h4o/gui"
 	"github.com/kasworld/h4o/math32"
-	"github.com/kasworld/h4o/window"
 )
 
 // OrbitEnabled specifies which control types are enabled.
@@ -221,19 +221,19 @@ func (oc *OrbitControl) onMouse(evname eventtype.EventType, ev interface{}) {
 	switch evname {
 	case eventtype.OnMouseDown:
 		gui.Manager().SetCursorFocus(oc)
-		mev := ev.(*window.MouseEvent)
+		mev := ev.(*appwindow.MouseEvent)
 		switch mev.Button {
-		case window.MouseButtonLeft: // Rotate
+		case appwindow.MouseButtonLeft: // Rotate
 			if oc.enabled&OrbitRot != 0 {
 				oc.state = stateRotate
 				oc.rotStart.Set(mev.Xpos, mev.Ypos)
 			}
-		case window.MouseButtonMiddle: // Zoom
+		case appwindow.MouseButtonMiddle: // Zoom
 			if oc.enabled&OrbitZoom != 0 {
 				oc.state = stateZoom
 				oc.zoomStart = mev.Ypos
 			}
-		case window.MouseButtonRight: // Pan
+		case appwindow.MouseButtonRight: // Pan
 			if oc.enabled&OrbitPan != 0 {
 				oc.state = statePan
 				oc.panStart.Set(mev.Xpos, mev.Ypos)
@@ -253,7 +253,7 @@ func (oc *OrbitControl) onCursor(evname eventtype.EventType, ev interface{}) {
 		return
 	}
 
-	mev := ev.(*window.CursorEvent)
+	mev := ev.(*appwindow.CursorEvent)
 	switch oc.state {
 	case stateRotate:
 		c := -2 * math32.Pi * oc.RotSpeed / oc.winSize()
@@ -274,7 +274,7 @@ func (oc *OrbitControl) onCursor(evname eventtype.EventType, ev interface{}) {
 func (oc *OrbitControl) onScroll(evname eventtype.EventType, ev interface{}) {
 
 	if oc.enabled&OrbitZoom != 0 {
-		sev := ev.(*window.ScrollEvent)
+		sev := ev.(*appwindow.ScrollEvent)
 		oc.Zoom(-sev.Yoffset)
 	}
 }
@@ -287,45 +287,45 @@ func (oc *OrbitControl) onKey(evname eventtype.EventType, ev interface{}) {
 		return
 	}
 
-	kev := ev.(*window.KeyEvent)
+	kev := ev.(*appwindow.KeyEvent)
 	if kev.Mods == 0 && oc.enabled&OrbitRot != 0 {
 		switch kev.Key {
-		case window.KeyUp:
+		case appwindow.KeyUp:
 			oc.Rotate(0, -oc.KeyRotSpeed)
-		case window.KeyDown:
+		case appwindow.KeyDown:
 			oc.Rotate(0, oc.KeyRotSpeed)
-		case window.KeyLeft:
+		case appwindow.KeyLeft:
 			oc.Rotate(-oc.KeyRotSpeed, 0)
-		case window.KeyRight:
+		case appwindow.KeyRight:
 			oc.Rotate(oc.KeyRotSpeed, 0)
 		}
 	}
-	if kev.Mods == window.ModControl && oc.enabled&OrbitZoom != 0 {
+	if kev.Mods == appwindow.ModControl && oc.enabled&OrbitZoom != 0 {
 		switch kev.Key {
-		case window.KeyUp:
+		case appwindow.KeyUp:
 			oc.Zoom(-oc.KeyZoomSpeed)
-		case window.KeyDown:
+		case appwindow.KeyDown:
 			oc.Zoom(oc.KeyZoomSpeed)
 		}
 	}
-	if kev.Mods == window.ModShift && oc.enabled&OrbitPan != 0 {
+	if kev.Mods == appwindow.ModShift && oc.enabled&OrbitPan != 0 {
 		switch kev.Key {
-		case window.KeyUp:
+		case appwindow.KeyUp:
 			oc.Pan(0, oc.KeyPanSpeed)
-		case window.KeyDown:
+		case appwindow.KeyDown:
 			oc.Pan(0, -oc.KeyPanSpeed)
-		case window.KeyLeft:
+		case appwindow.KeyLeft:
 			oc.Pan(oc.KeyPanSpeed, 0)
-		case window.KeyRight:
+		case appwindow.KeyRight:
 			oc.Pan(-oc.KeyPanSpeed, 0)
 		}
 	}
 }
 
-// winSize returns the window height or width based on the camera reference axis.
+// winSize returns the appwindow height or width based on the camera reference axis.
 func (oc *OrbitControl) winSize() float32 {
 
-	width, size := window.Get().GetSize()
+	width, size := appwindow.Get().GetSize()
 	if oc.cam.Axis() == camera.Horizontal {
 		size = width
 	}
