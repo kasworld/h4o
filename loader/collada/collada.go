@@ -11,9 +11,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/kasworld/goguelike-single/lib/engine/geometry"
-	"github.com/kasworld/goguelike-single/lib/engine/material"
-	"github.com/kasworld/goguelike-single/lib/engine/texture"
+	"github.com/kasworld/h4o/geometry"
+	"github.com/kasworld/h4o/material"
+	"github.com/kasworld/h4o/texture"
 )
 
 // Decoder contains all decoded data from collada file

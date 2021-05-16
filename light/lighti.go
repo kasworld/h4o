@@ -5,8 +5,8 @@
 package light
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/renderinfo"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/renderinfo"
 )
 
 // LightI is the interface that must be implemented for all light types.

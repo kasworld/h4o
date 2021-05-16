@@ -6,7 +6,7 @@
 // WARNING: Parts of this package are experimental and incomplete!
 package collision
 
-import "github.com/kasworld/goguelike-single/lib/engine/geometry"
+import "github.com/kasworld/h4o/geometry"
 
 // TODO collision checking function dependent on collision shapes
 

@@ -7,7 +7,7 @@ package gui
 import (
 	"fmt"
 
-	"github.com/kasworld/goguelike-single/lib/engine/eventtype"
+	"github.com/kasworld/h4o/eventtype"
 )
 
 // ControlFolder represents a folder with controls.

@@ -5,9 +5,9 @@
 package gui
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/appbase/appwindow"
-	"github.com/kasworld/goguelike-single/lib/engine/eventtype"
-	"github.com/kasworld/goguelike-single/lib/engine/texture"
+	"github.com/kasworld/h4o/appbase/appwindow"
+	"github.com/kasworld/h4o/eventtype"
+	"github.com/kasworld/h4o/texture"
 )
 
 // ImageButton represents an image button GUI element

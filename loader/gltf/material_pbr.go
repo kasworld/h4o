@@ -3,8 +3,8 @@ package gltf
 import (
 	"fmt"
 
-	"github.com/kasworld/goguelike-single/lib/engine/material"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/material"
+	"github.com/kasworld/h4o/math32"
 )
 
 func (g *GLTF) loadMaterialPBR(m *Material) (material.MaterialI, error) {

@@ -1,6 +1,6 @@
 package gui
 
-import "github.com/kasworld/goguelike-single/lib/engine/graphic"
+import "github.com/kasworld/h4o/graphic"
 
 // PanelI is the interface for all panel types
 type PanelI interface {

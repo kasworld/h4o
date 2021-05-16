@@ -6,7 +6,7 @@
 package solver
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/math32"
 )
 
 // GaussSeidel equation solver.

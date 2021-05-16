@@ -7,7 +7,7 @@ package gui
 import (
 	"image"
 
-	"github.com/kasworld/goguelike-single/lib/engine/texture"
+	"github.com/kasworld/h4o/texture"
 )
 
 // Image is a Panel which contains a single Image

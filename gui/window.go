@@ -5,10 +5,10 @@
 package gui
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/appbase/appwindow"
-	"github.com/kasworld/goguelike-single/lib/engine/eventtype"
-	"github.com/kasworld/goguelike-single/lib/engine/gui/assets/icon"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/appbase/appwindow"
+	"github.com/kasworld/h4o/eventtype"
+	"github.com/kasworld/h4o/gui/assets/icon"
+	"github.com/kasworld/h4o/math32"
 )
 
 /*********************************************

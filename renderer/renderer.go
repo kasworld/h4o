@@ -8,15 +8,15 @@ package renderer
 import (
 	"sort"
 
-	"github.com/kasworld/goguelike-single/lib/engine/camerai"
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/graphic"
-	"github.com/kasworld/goguelike-single/lib/engine/gui"
-	"github.com/kasworld/goguelike-single/lib/engine/light"
-	"github.com/kasworld/goguelike-single/lib/engine/material"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
-	"github.com/kasworld/goguelike-single/lib/engine/node"
-	"github.com/kasworld/goguelike-single/lib/engine/renderinfo"
+	"github.com/kasworld/h4o/camerai"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/graphic"
+	"github.com/kasworld/h4o/gui"
+	"github.com/kasworld/h4o/light"
+	"github.com/kasworld/h4o/material"
+	"github.com/kasworld/h4o/math32"
+	"github.com/kasworld/h4o/node"
+	"github.com/kasworld/h4o/renderinfo"
 )
 
 // Renderer renders a scene containing 3D objects and/or 2D GUI elements.

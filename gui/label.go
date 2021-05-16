@@ -5,10 +5,10 @@
 package gui
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
-	"github.com/kasworld/goguelike-single/lib/engine/text"
-	"github.com/kasworld/goguelike-single/lib/engine/texture"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/math32"
+	"github.com/kasworld/h4o/text"
+	"github.com/kasworld/h4o/texture"
 )
 
 // Label is a panel which contains a texture with text.

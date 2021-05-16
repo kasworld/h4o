@@ -5,11 +5,11 @@
 package physics
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/experimental/collision/shape"
-	"github.com/kasworld/goguelike-single/lib/engine/experimental/physics/equation"
-	"github.com/kasworld/goguelike-single/lib/engine/experimental/physics/object"
-	"github.com/kasworld/goguelike-single/lib/engine/log"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/experimental/collision/shape"
+	"github.com/kasworld/h4o/experimental/physics/equation"
+	"github.com/kasworld/h4o/experimental/physics/object"
+	"github.com/kasworld/h4o/log"
+	"github.com/kasworld/h4o/math32"
 )
 
 // Narrowphase

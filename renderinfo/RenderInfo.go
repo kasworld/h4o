@@ -5,7 +5,7 @@
 package renderinfo
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/math32"
 )
 
 // RenderInfo is passed into Render/RenderSetup calls

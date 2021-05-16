@@ -5,8 +5,8 @@
 package dispatcher
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/dispatcheri"
-	"github.com/kasworld/goguelike-single/lib/engine/eventtype"
+	"github.com/kasworld/h4o/dispatcheri"
+	"github.com/kasworld/h4o/eventtype"
 )
 
 // Dispatcher implements an event dispatcher.

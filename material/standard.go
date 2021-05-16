@@ -5,8 +5,8 @@
 package material
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/math32"
 )
 
 // Standard material supports the classic lighting model with

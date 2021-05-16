@@ -5,8 +5,8 @@
 package texture
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/math32"
 )
 
 // NewBoard creates and returns a pointer to a new checker board 2D texture.

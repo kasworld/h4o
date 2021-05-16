@@ -14,10 +14,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/kasworld/goguelike-single/lib/engine/audio/al"
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
-	"github.com/kasworld/goguelike-single/lib/engine/node"
+	"github.com/kasworld/h4o/audio/al"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/math32"
+	"github.com/kasworld/h4o/node"
 )
 
 const (

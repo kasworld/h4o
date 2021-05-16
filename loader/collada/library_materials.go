@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/kasworld/goguelike-single/lib/engine/log"
+	"github.com/kasworld/h4o/log"
 )
 
 //

@@ -14,7 +14,7 @@ import (
 	_ "image/png"
 	"os"
 
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
+	"github.com/kasworld/h4o/gls"
 )
 
 // Texture2D represents a texture

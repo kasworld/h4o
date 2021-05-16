@@ -1,8 +1,8 @@
 package constraint
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/experimental/physics/equation"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/experimental/physics/equation"
+	"github.com/kasworld/h4o/math32"
 )
 
 type BodyI interface {

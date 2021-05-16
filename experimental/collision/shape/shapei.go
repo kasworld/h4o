@@ -1,6 +1,6 @@
 package shape
 
-import "github.com/kasworld/goguelike-single/lib/engine/math32"
+import "github.com/kasworld/h4o/math32"
 
 // ShapeI is the interface for all collision shapes.
 // Shapes in this package satisfy this interface and also geometry.Geometry.

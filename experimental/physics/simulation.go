@@ -5,15 +5,15 @@
 package physics
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/eventtype"
-	"github.com/kasworld/goguelike-single/lib/engine/experimental/collision"
-	"github.com/kasworld/goguelike-single/lib/engine/experimental/collision/shape"
-	"github.com/kasworld/goguelike-single/lib/engine/experimental/physics/constraint"
-	"github.com/kasworld/goguelike-single/lib/engine/experimental/physics/equation"
-	"github.com/kasworld/goguelike-single/lib/engine/experimental/physics/object"
-	"github.com/kasworld/goguelike-single/lib/engine/experimental/physics/solver"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
-	"github.com/kasworld/goguelike-single/lib/engine/node"
+	"github.com/kasworld/h4o/eventtype"
+	"github.com/kasworld/h4o/experimental/collision"
+	"github.com/kasworld/h4o/experimental/collision/shape"
+	"github.com/kasworld/h4o/experimental/physics/constraint"
+	"github.com/kasworld/h4o/experimental/physics/equation"
+	"github.com/kasworld/h4o/experimental/physics/object"
+	"github.com/kasworld/h4o/experimental/physics/solver"
+	"github.com/kasworld/h4o/math32"
+	"github.com/kasworld/h4o/node"
 )
 
 // Simulation represents a physics simulation.

@@ -7,8 +7,8 @@ package gui
 import (
 	"math"
 
-	"github.com/kasworld/goguelike-single/lib/engine/appbase/appwindow"
-	"github.com/kasworld/goguelike-single/lib/engine/eventtype"
+	"github.com/kasworld/h4o/appbase/appwindow"
+	"github.com/kasworld/h4o/eventtype"
 )
 
 // ItemScroller is the GUI element that allows scrolling of IPanels

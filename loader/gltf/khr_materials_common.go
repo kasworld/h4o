@@ -1,9 +1,9 @@
 package gltf
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/material"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
-	"github.com/kasworld/goguelike-single/lib/engine/texture"
+	"github.com/kasworld/h4o/material"
+	"github.com/kasworld/h4o/math32"
+	"github.com/kasworld/h4o/texture"
 )
 
 // loadMaterialCommon receives an interface value describing a KHR_materials_common extension,

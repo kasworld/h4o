@@ -4,7 +4,7 @@
 
 package physics
 
-import "github.com/kasworld/goguelike-single/lib/engine/math32"
+import "github.com/kasworld/h4o/math32"
 
 //
 // ConstantForceField is a constant force field.

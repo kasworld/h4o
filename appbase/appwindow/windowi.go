@@ -9,8 +9,8 @@ package appwindow
 import (
 	"fmt"
 
-	"github.com/kasworld/goguelike-single/lib/engine/dispatcheri"
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
+	"github.com/kasworld/h4o/dispatcheri"
+	"github.com/kasworld/h4o/gls"
 )
 
 // AppWindowI singleton

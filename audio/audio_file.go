@@ -12,8 +12,8 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/kasworld/goguelike-single/lib/engine/audio/al"
-	"github.com/kasworld/goguelike-single/lib/engine/audio/ov"
+	"github.com/kasworld/h4o/audio/al"
+	"github.com/kasworld/h4o/audio/ov"
 )
 
 const (

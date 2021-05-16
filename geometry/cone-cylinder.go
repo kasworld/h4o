@@ -7,8 +7,8 @@ package geometry
 import (
 	"math"
 
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/math32"
 )
 
 // NewCone creates a cone geometry with the specified base radius, height,

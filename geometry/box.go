@@ -5,8 +5,8 @@
 package geometry
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/math32"
 )
 
 // NewCube creates a cube geometry with the specified size.

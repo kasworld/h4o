@@ -7,12 +7,12 @@ package orbit
 import (
 	"math"
 
-	"github.com/kasworld/goguelike-single/lib/engine/camera"
-	"github.com/kasworld/goguelike-single/lib/engine/dispatcher"
-	"github.com/kasworld/goguelike-single/lib/engine/eventtype"
-	"github.com/kasworld/goguelike-single/lib/engine/gui"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
-	"github.com/kasworld/goguelike-single/lib/engine/window"
+	"github.com/kasworld/h4o/camera"
+	"github.com/kasworld/h4o/dispatcher"
+	"github.com/kasworld/h4o/eventtype"
+	"github.com/kasworld/h4o/gui"
+	"github.com/kasworld/h4o/math32"
+	"github.com/kasworld/h4o/window"
 )
 
 // OrbitEnabled specifies which control types are enabled.

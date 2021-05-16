@@ -5,8 +5,8 @@
 package physics
 
 //import (
-//	"github.com/kasworld/goguelike-single/lib/engine/math32"
-//	"github.com/kasworld/goguelike-single/lib/engine/graphic"
+//	"github.com/kasworld/h4o/math32"
+//	"github.com/kasworld/h4o/graphic"
 //)
 //
 //// Particle represents a physics-driven particle.

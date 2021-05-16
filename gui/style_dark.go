@@ -5,10 +5,10 @@
 package gui
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/gui/assets"
-	"github.com/kasworld/goguelike-single/lib/engine/gui/assets/icon"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
-	"github.com/kasworld/goguelike-single/lib/engine/text"
+	"github.com/kasworld/h4o/gui/assets"
+	"github.com/kasworld/h4o/gui/assets/icon"
+	"github.com/kasworld/h4o/math32"
+	"github.com/kasworld/h4o/text"
 )
 
 // NewDarkStyle creates and returns a pointer to the a new "dark" style

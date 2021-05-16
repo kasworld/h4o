@@ -1,8 +1,8 @@
 package stats
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/gui"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/gui"
 )
 
 // StatsTable is a gui.Table panel with statistics

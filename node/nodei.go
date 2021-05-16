@@ -1,9 +1,9 @@
 package node
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/dispatcheri"
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/dispatcheri"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/math32"
 )
 
 // NodeI is the interface for all node types.

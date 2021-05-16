@@ -6,7 +6,7 @@
 package physics
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/experimental/physics/object"
+	"github.com/kasworld/h4o/experimental/physics/object"
 )
 
 // CollisionPair is a pair of bodies that may be colliding.

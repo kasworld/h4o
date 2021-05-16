@@ -1,6 +1,6 @@
 package dispatcheri
 
-import "github.com/kasworld/goguelike-single/lib/engine/eventtype"
+import "github.com/kasworld/h4o/eventtype"
 
 // Callback is the type for Dispatcher callback functions.
 type Callback func(evname eventtype.EventType, ev interface{})

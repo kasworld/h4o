@@ -1,6 +1,6 @@
 package physics
 
-import "github.com/kasworld/goguelike-single/lib/engine/math32"
+import "github.com/kasworld/h4o/math32"
 
 // ForceFieldI represents a force field. A force is defined for every point.
 type ForceFieldI interface {

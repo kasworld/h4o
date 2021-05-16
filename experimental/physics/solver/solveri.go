@@ -1,6 +1,6 @@
 package solver
 
-import "github.com/kasworld/goguelike-single/lib/engine/experimental/physics/equation"
+import "github.com/kasworld/h4o/experimental/physics/equation"
 
 // SolverI is the interface type for all constraint solvers.
 type SolverI interface {

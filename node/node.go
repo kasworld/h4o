@@ -8,10 +8,10 @@ import (
 	"math"
 	"strings"
 
-	"github.com/kasworld/goguelike-single/lib/engine/dispatcher"
-	"github.com/kasworld/goguelike-single/lib/engine/eventtype"
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/dispatcher"
+	"github.com/kasworld/h4o/eventtype"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/math32"
 )
 
 // Node represents an object in 3D space existing within a hierarchy.

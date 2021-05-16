@@ -7,8 +7,8 @@
 package material
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/texture"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/texture"
 )
 
 // Side represents the material's visible side(s).

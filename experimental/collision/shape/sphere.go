@@ -4,7 +4,7 @@
 
 package shape
 
-import "github.com/kasworld/goguelike-single/lib/engine/math32"
+import "github.com/kasworld/h4o/math32"
 
 // Sphere is an analytical collision sphere.
 type Sphere struct {

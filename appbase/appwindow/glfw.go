@@ -15,10 +15,10 @@ import (
 	"runtime"
 
 	"github.com/go-gl/glfw/v3.3/glfw"
-	"github.com/kasworld/goguelike-single/lib/engine/dispatcher"
-	"github.com/kasworld/goguelike-single/lib/engine/eventtype"
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/gui/assets"
+	"github.com/kasworld/h4o/dispatcher"
+	"github.com/kasworld/h4o/eventtype"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/gui/assets"
 )
 
 // GlfwWindow describes one glfw window

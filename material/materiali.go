@@ -1,6 +1,6 @@
 package material
 
-import "github.com/kasworld/goguelike-single/lib/engine/gls"
+import "github.com/kasworld/h4o/gls"
 
 // MaterialI is the interface for all materials.
 type MaterialI interface {

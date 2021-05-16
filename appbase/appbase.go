@@ -10,12 +10,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kasworld/goguelike-single/lib/engine/appbase/appwindow"
-	"github.com/kasworld/goguelike-single/lib/engine/audio/al"
-	"github.com/kasworld/goguelike-single/lib/engine/audio/vorbis"
-	"github.com/kasworld/goguelike-single/lib/engine/eventtype"
-	"github.com/kasworld/goguelike-single/lib/engine/log"
-	"github.com/kasworld/goguelike-single/lib/engine/renderer"
+	"github.com/kasworld/h4o/appbase/appwindow"
+	"github.com/kasworld/h4o/audio/al"
+	"github.com/kasworld/h4o/audio/vorbis"
+	"github.com/kasworld/h4o/eventtype"
+	"github.com/kasworld/h4o/log"
+	"github.com/kasworld/h4o/renderer"
 )
 
 // AppBase

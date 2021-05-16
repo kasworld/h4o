@@ -16,7 +16,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/kasworld/goguelike-single/lib/engine/log"
+	"github.com/kasworld/h4o/log"
 )
 
 // GLS encapsulates the state of an OpenGL context and contains

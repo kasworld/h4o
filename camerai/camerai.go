@@ -1,6 +1,6 @@
 package camerai
 
-import "github.com/kasworld/goguelike-single/lib/engine/math32"
+import "github.com/kasworld/h4o/math32"
 
 // CameraI is the interface for all cameras.
 type CameraI interface {

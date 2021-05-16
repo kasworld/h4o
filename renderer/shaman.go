@@ -11,10 +11,10 @@ import (
 
 	"strconv"
 
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/log"
-	"github.com/kasworld/goguelike-single/lib/engine/material"
-	"github.com/kasworld/goguelike-single/lib/engine/renderer/shaders"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/log"
+	"github.com/kasworld/h4o/material"
+	"github.com/kasworld/h4o/renderer/shaders"
 )
 
 // Regular expression to parse #include <name> [quantity] directive

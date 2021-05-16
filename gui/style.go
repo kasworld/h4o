@@ -5,8 +5,8 @@
 package gui
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
-	"github.com/kasworld/goguelike-single/lib/engine/text"
+	"github.com/kasworld/h4o/math32"
+	"github.com/kasworld/h4o/text"
 )
 
 // Style contains the styles for all GUI elements

@@ -12,7 +12,7 @@ import (
 	"os"
 	"unicode/utf8"
 
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/math32"
 )
 
 // CharInfo contains the information to locate a character in an Atlas

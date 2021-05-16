@@ -4,7 +4,7 @@
 
 package collision
 
-import "github.com/kasworld/goguelike-single/lib/engine/math32"
+import "github.com/kasworld/h4o/math32"
 
 // Contact describes a contact point, normal, and depth.
 type Contact struct {

@@ -4,7 +4,7 @@
 
 package equation
 
-import "github.com/kasworld/goguelike-single/lib/engine/math32"
+import "github.com/kasworld/h4o/math32"
 
 // JacobianElement contains 6 entries, 3 spatial and 3 rotational degrees of freedom.
 type JacobianElement struct {

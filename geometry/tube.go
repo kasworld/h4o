@@ -8,8 +8,8 @@ package geometry
 import (
 	"math"
 
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/math32"
 )
 
 func CalculateNormals(indices math32.ArrayU32, positions, normals math32.ArrayF32) math32.ArrayF32 {

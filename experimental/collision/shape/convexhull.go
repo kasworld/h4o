@@ -5,9 +5,9 @@
 package shape
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/experimental/collision"
-	"github.com/kasworld/goguelike-single/lib/engine/geometry"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/experimental/collision"
+	"github.com/kasworld/h4o/geometry"
+	"github.com/kasworld/h4o/math32"
 )
 
 // ConvexHull is a convex triangle-based geometry used for collision detection and contact resolution.

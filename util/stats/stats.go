@@ -4,7 +4,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
+	"github.com/kasworld/h4o/gls"
 )
 
 // Stats contains several statistics useful for performance evaluation

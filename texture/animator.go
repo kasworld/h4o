@@ -7,7 +7,7 @@ package texture
 import (
 	"time"
 
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
+	"github.com/kasworld/h4o/gls"
 )
 
 // Animator can generate a texture animation based on a texture sheet

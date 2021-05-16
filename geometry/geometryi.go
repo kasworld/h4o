@@ -1,6 +1,6 @@
 package geometry
 
-import "github.com/kasworld/goguelike-single/lib/engine/gls"
+import "github.com/kasworld/h4o/gls"
 
 // GeometryI is the interface for all geometries.
 type GeometryI interface {

@@ -5,10 +5,10 @@
 package gui
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/appbase/appwindow"
-	"github.com/kasworld/goguelike-single/lib/engine/eventtype"
-	"github.com/kasworld/goguelike-single/lib/engine/log"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/appbase/appwindow"
+	"github.com/kasworld/h4o/eventtype"
+	"github.com/kasworld/h4o/log"
+	"github.com/kasworld/h4o/math32"
 )
 
 // Scroller is the GUI element that allows scrolling of a target PanelI.

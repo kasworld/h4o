@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
-	"github.com/kasworld/goguelike-single/lib/engine/node"
+	"github.com/kasworld/h4o/math32"
+	"github.com/kasworld/h4o/node"
 )
 
 // AnimationTarget contains all animation channels for an specific target node

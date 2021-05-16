@@ -5,12 +5,12 @@
 package gui
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/appbase/appwindow"
-	"github.com/kasworld/goguelike-single/lib/engine/dispatcher"
-	"github.com/kasworld/goguelike-single/lib/engine/dispatcheri"
-	"github.com/kasworld/goguelike-single/lib/engine/eventtype"
-	"github.com/kasworld/goguelike-single/lib/engine/node"
-	"github.com/kasworld/goguelike-single/lib/engine/timermanager"
+	"github.com/kasworld/h4o/appbase/appwindow"
+	"github.com/kasworld/h4o/dispatcher"
+	"github.com/kasworld/h4o/dispatcheri"
+	"github.com/kasworld/h4o/eventtype"
+	"github.com/kasworld/h4o/node"
+	"github.com/kasworld/h4o/timermanager"
 )
 
 // manager singleton

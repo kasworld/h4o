@@ -1,7 +1,7 @@
 package gltf
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/material"
+	"github.com/kasworld/h4o/material"
 )
 
 // TODO

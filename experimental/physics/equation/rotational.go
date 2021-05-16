@@ -5,7 +5,7 @@
 package equation
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/math32"
 )
 
 // Rotational is a rotational constraint equation.

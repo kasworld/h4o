@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/kasworld/goguelike-single/lib/engine/geometry"
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/geometry"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/math32"
 )
 
 // GetGeometry returns a pointer to an instance of the geometry

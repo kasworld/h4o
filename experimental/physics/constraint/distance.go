@@ -5,7 +5,7 @@
 package constraint
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/experimental/physics/equation"
+	"github.com/kasworld/h4o/experimental/physics/equation"
 )
 
 // Distance is a distance constraint.

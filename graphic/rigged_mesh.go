@@ -7,10 +7,10 @@ package graphic
 import (
 	"strconv"
 
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/log"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
-	"github.com/kasworld/goguelike-single/lib/engine/renderinfo"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/log"
+	"github.com/kasworld/h4o/math32"
+	"github.com/kasworld/h4o/renderinfo"
 )
 
 // MaxBoneInfluencers is the maximum number of bone influencers per vertex.

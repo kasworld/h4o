@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/golang/freetype/truetype"
-	"github.com/kasworld/goguelike-single/lib/engine/math32"
+	"github.com/kasworld/h4o/math32"
 	"golang.org/x/image/font"
 	"golang.org/x/image/math/fixed"
 )

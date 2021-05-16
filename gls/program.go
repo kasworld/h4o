@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kasworld/goguelike-single/lib/engine/log"
+	"github.com/kasworld/h4o/log"
 )
 
 // Program represents an OpenGL program.

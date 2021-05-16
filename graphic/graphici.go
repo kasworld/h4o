@@ -1,10 +1,10 @@
 package graphic
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/geometry"
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/node"
-	"github.com/kasworld/goguelike-single/lib/engine/renderinfo"
+	"github.com/kasworld/h4o/geometry"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/node"
+	"github.com/kasworld/h4o/renderinfo"
 )
 
 // GraphicI is the interface for all Graphic objects.

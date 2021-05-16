@@ -1,6 +1,6 @@
 package animation
 
-import "github.com/kasworld/goguelike-single/lib/engine/math32"
+import "github.com/kasworld/h4o/math32"
 
 // ChannelI is the interface for all channel types.
 type ChannelI interface {

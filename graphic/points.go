@@ -5,10 +5,10 @@
 package graphic
 
 import (
-	"github.com/kasworld/goguelike-single/lib/engine/geometry"
-	"github.com/kasworld/goguelike-single/lib/engine/gls"
-	"github.com/kasworld/goguelike-single/lib/engine/material"
-	"github.com/kasworld/goguelike-single/lib/engine/renderinfo"
+	"github.com/kasworld/h4o/geometry"
+	"github.com/kasworld/h4o/gls"
+	"github.com/kasworld/h4o/material"
+	"github.com/kasworld/h4o/renderinfo"
 )
 
 // Points represents a geometry containing only points
