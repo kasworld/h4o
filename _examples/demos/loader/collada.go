@@ -6,6 +6,7 @@ import (
 	"time"
 
 	"github.com/kasworld/h4o/_examples/app"
+	"github.com/kasworld/h4o/_examples/usrevent"
 	"github.com/kasworld/h4o/_examples/util"
 	"github.com/kasworld/h4o/eventtype"
 	"github.com/kasworld/h4o/light"
@@ -33,7 +34,7 @@ func (t *LoaderCollada) Start(a *app.App) {
 	t.selFile.SetPosition(10, 10)
 	t.selFile.FS.SetFileFilters("*.dae")
 	a.DemoPanel().Add(t.selFile)
-	t.selFile.Subscribe(eventtype.OnSelect, func(evname eventtype.EventType, ev interface{}) {
+	t.selFile.Subscribe(usrevent.OnSelect, func(evname eventtype.EventType, ev interface{}) {
 		fpath := ev.(string)
 		err := t.load(a, fpath)
 		if err == nil {

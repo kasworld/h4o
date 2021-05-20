@@ -2,15 +2,15 @@ package gui
 
 import (
 	"fmt"
+	"path/filepath"
 	"time"
 
 	"github.com/kasworld/h4o/_examples/app"
+	"github.com/kasworld/h4o/_examples/usrevent"
 	"github.com/kasworld/h4o/_examples/util"
 	"github.com/kasworld/h4o/eventtype"
 	"github.com/kasworld/h4o/gui"
 	"github.com/kasworld/h4o/math32"
-
-	"path/filepath"
 )
 
 func init() {
@@ -34,7 +34,7 @@ func (t *GuiBuilder) Start(a *app.App) {
 	t.selFile.SetPosition(0, 0)
 	t.selFile.FS.SetFileFilters("*.yaml")
 	a.DemoPanel().Add(t.selFile)
-	t.selFile.Subscribe(eventtype.OnSelect, func(evname eventtype.EventType, ev interface{}) {
+	t.selFile.Subscribe(usrevent.OnSelect, func(evname eventtype.EventType, ev interface{}) {
 		fmt.Println("OnSelect")
 		fpath := ev.(string)
 		t.build(a, fpath)

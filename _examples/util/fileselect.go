@@ -5,6 +5,7 @@ import (
 	"path/filepath"
 	"sort"
 
+	"github.com/kasworld/h4o/_examples/usrevent"
 	"github.com/kasworld/h4o/eventtype"
 	"github.com/kasworld/h4o/gui"
 	"github.com/kasworld/h4o/gui/assets/icon"
@@ -45,17 +46,17 @@ func NewFileSelectButton(path, text string, width, height float32) *FileSelectBu
 	fsb.Button.Add(fsb.FS)
 
 	// Subscribe to file select panel buttons
-	fsb.FS.Subscribe(eventtype.OnOK, func(evname eventtype.EventType, ev interface{}) {
+	fsb.FS.Subscribe(usrevent.OnOK, func(evname eventtype.EventType, ev interface{}) {
 		fpath := fsb.FS.Selected()
 		if fpath == "" {
 			fsb.FS.SetVisible(false)
 			return
 		}
-		fsb.Button.Dispatch(eventtype.OnSelect, fpath)
+		fsb.Button.Dispatch(usrevent.OnSelect, fpath)
 		fsb.FS.SetVisible(false)
 	})
 	// Hides file select if Cancel button is clicked
-	fsb.FS.Subscribe(eventtype.OnCancel, func(evname eventtype.EventType, ev interface{}) {
+	fsb.FS.Subscribe(usrevent.OnCancel, func(evname eventtype.EventType, ev interface{}) {
 		fsb.FS.SetVisible(false)
 	})
 
@@ -129,7 +130,7 @@ func NewFileSelect(width, height float32) *FileSelect {
 	fs.bok = gui.NewButton("OK")
 	fs.bok.SetLayoutParams(&gui.HBoxLayoutParams{Expand: 0, AlignV: gui.AlignCenter})
 	fs.bok.Subscribe(eventtype.OnClick, func(evname eventtype.EventType, ev interface{}) {
-		fs.Dispatch(eventtype.OnOK, nil)
+		fs.Dispatch(usrevent.OnOK, nil)
 	})
 	bc.Add(fs.bok)
 
@@ -137,7 +138,7 @@ func NewFileSelect(width, height float32) *FileSelect {
 	fs.bcan = gui.NewButton("Cancel")
 	fs.bcan.SetLayoutParams(&gui.HBoxLayoutParams{Expand: 0, AlignV: gui.AlignCenter})
 	fs.bcan.Subscribe(eventtype.OnClick, func(evname eventtype.EventType, ev interface{}) {
-		fs.Dispatch(eventtype.OnCancel, nil)
+		fs.Dispatch(usrevent.OnCancel, nil)
 	})
 	bc.Add(fs.bcan)
 
