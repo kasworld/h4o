@@ -71,6 +71,9 @@ const (
 	//
 	OnListItemResize // is the identifier of the event dispatched when a ListItem's child panel is resized
 	//
+	OnOK     //
+	OnCancel //
+	OnSelect //
 
 	EventType_Count int = iota
 )
@@ -110,6 +113,9 @@ var _EventType2string = [EventType_Count][2]string{
 	EndContactEvent:   {"EndContactEvent", "physics.EndContactEvent"},
 	CollisionEv:       {"CollisionEv", "physics.Collision"},
 	OnListItemResize:  {"OnListItemResize", "is the identifier of the event dispatched when a ListItem's child panel is resized"},
+	OnOK:              {"OnOK", ""},
+	OnCancel:          {"OnCancel", ""},
+	OnSelect:          {"OnSelect", ""},
 }
 
 func (e EventType) String() string {
@@ -161,6 +167,9 @@ var _string2EventType = map[string]EventType{
 	"EndContactEvent":   EndContactEvent,
 	"CollisionEv":       CollisionEv,
 	"OnListItemResize":  OnListItemResize,
+	"OnOK":              OnOK,
+	"OnCancel":          OnCancel,
+	"OnSelect":          OnSelect,
 }
 
 func String2EventType(s string) (EventType, bool) {

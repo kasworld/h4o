@@ -61,3 +61,7 @@ EndContactEvent   physics.EndContactEvent
 CollisionEv       physics.Collision
 
 OnListItemResize is the identifier of the event dispatched when a ListItem's child panel is resized
+
+OnOK
+OnCancel
+OnSelect
