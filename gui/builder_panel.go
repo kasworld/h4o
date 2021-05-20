@@ -7,7 +7,7 @@ package gui
 import (
 	"path/filepath"
 
-	"github.com/kasworld/h4o/appbase/appwindow"
+	"github.com/kasworld/h4o/appwindow"
 	"github.com/kasworld/h4o/math32"
 )
 

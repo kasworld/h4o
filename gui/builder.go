@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kasworld/h4o/appbase/appwindow"
+	"github.com/kasworld/h4o/appwindow"
 	"github.com/kasworld/h4o/gui/assets/icon"
 	"github.com/kasworld/h4o/math32"
 	"gopkg.in/yaml.v2"

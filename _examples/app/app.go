@@ -13,7 +13,7 @@ import (
 
 	"github.com/kardianos/osext"
 	"github.com/kasworld/h4o/appbase"
-	"github.com/kasworld/h4o/appbase/appwindow"
+	"github.com/kasworld/h4o/appwindow"
 	"github.com/kasworld/h4o/audio/al"
 	"github.com/kasworld/h4o/camera"
 	"github.com/kasworld/h4o/camera/orbit"

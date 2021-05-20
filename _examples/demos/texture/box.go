@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/kasworld/h4o/_examples/app"
-	"github.com/kasworld/h4o/appbase/appwindow"
+	"github.com/kasworld/h4o/appwindow"
 	"github.com/kasworld/h4o/eventtype"
 	"github.com/kasworld/h4o/geometry"
 	"github.com/kasworld/h4o/graphic"

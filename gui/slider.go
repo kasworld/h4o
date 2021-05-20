@@ -5,7 +5,7 @@
 package gui
 
 import (
-	"github.com/kasworld/h4o/appbase/appwindow"
+	"github.com/kasworld/h4o/appwindow"
 	"github.com/kasworld/h4o/eventtype"
 )
 
